@@ -436,4 +436,141 @@ To https://github.com/ChandraPuvendhan/my-workspace.git
  * [new branch]      main -> main
 Branch 'main' set up to track remote branch 'main' from 'origin'.
 # git log
-[?1h=[33mcom
+[?1h=[33mcommit f249488ca43d187d3170b6259ff2579d3d58debe[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m[m
+Author: ChandraPuvendhan <mailtochandrasankar@gmail.com>[m
+Date:   Fri Oct 2 00:53:49 2020 +0530[m
+[m
+    first commit[m
+[K[?1l># git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   JavaDay1.log[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+# git push -u origin main
+Username for 'https://github.com': ChandraPuvendhan
+Password for 'https://ChandraPuvendhan@github.com': 
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+Everything up-to-date
+# git remote add origin https://github.com/ChandraPuvendhan/ChandraSankarLinuxWorkspace.git
+fatal: remote origin already exists.
+# git branch -M main
+# git push -u origin main
+Username for 'https://github.com': ChandraPuvendhan
+Password for 'https://ChandraPuvendhan@github.com': 
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+Everything up-to-date
+# ld s
+Hello.class  Hello.java  JavaDay1.log  Welcome.class
+# ls -a
+.  ..  .git  Hello.class  Hello.java  JavaDay1.log  Welcome.class
+# git commit -m "updated"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   JavaDay1.log[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+# git add */*  .*
+# git commit -m "updated"
+[main 870dd36] updated
+ 1 file changed, 72 insertions(+), 1 deletion(-)
+# git     git remote add origin https://github.com/ChandraPuvendhan/ChandraSankarLinuxWorkspace.git
+fatal: remote origin already exists.
+# git push -u origin main
+Username for 'https://github.com': ChandraPuvendhan
+Password for 'https://ChandraPuvendhan@github.com': 
+Enumerating objects: 5, done.
+Counting objects:  20% (1/5)Counting objects:  40% (2/5)Counting objects:  60% (3/5)Counting objects:  80% (4/5)Counting objects: 100% (5/5)Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 1.77 KiB | 226.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To https://github.com/ChandraPuvendhan/my-workspace.git
+   f249488..870dd36  main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+# echo "# ChandraSankarLinuxWorkspace" >> README.md
+# git init
+Reinitialized existing Git repository in /javaworkspace/.git/
+# git add README.md
+# git add *.*
+# git commit -m "first commit"             updated"
+[main 590611e] updated
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+# git branch -M main
+# git remote add origin https://github.com/ChandraPuvendhan/ChandraSankarLinuxWorkspace.git
+fatal: remote origin already exists.
+# git remote add origin https://github.com/ChandraPuvendhan/ChandraSankarLinuxWorkspace.git^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D                                                                                                    
+fatal: remote origin already exists.
+# git remote add mi ain git remote add origin https://github.com/ChandraPuvendhan/ChandraSankarLinuxWorkspace.git                                                                                           https://github.com/ChandraPuvendhan/ChandraSankarLinuxWorkspace.git
+# git push -u origin main
+Username for 'https://github.com': ChandraPuvendhan
+Password for 'https://ChandraPuvendhan@github.com': 
+Enumerating objects: 4, done.
+Counting objects:  25% (1/4)Counting objects:  50% (2/4)Counting objects:  75% (3/4)Counting objects: 100% (4/4)Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects:  50% (1/2)Compressing objects: 100% (2/2)Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 303 bytes | 303.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/ChandraPuvendhan/my-workspace.git
+   870dd36..590611e  main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+# git log
+[?1h=[33mcommit 590611e11965c34c6cebb19cd659b581b1d9cbce[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m[m
+Author: ChandraPuvendhan <mailtochandrasankar@gmail.com>[m
+Date:   Fri Oct 2 01:12:41 2020 +0530[m
+[m
+    updated[m
+[m
+[33mcommit 870dd36cca137160325665af4d9bd42017f5b17a[m[m
+Author: ChandraPuvendhan <mailtochandrasankar@gmail.com>[m
+Date:   Fri Oct 2 01:09:32 2020 +0530[m
+[m
+    updated[m
+[m
+[33mcommit f249488ca43d187d3170b6259ff2579d3d58debe[m[m
+Author: ChandraPuvendhan <mailtochandrasankar@gmail.com>[m
+Date:   Fri Oct 2 00:53:49 2020 +0530[m
+[m
+    first commit[m
+[K[?1l># git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   JavaDay1.log[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+# git push master
+fatal: 'master' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+# ld s
+Hello.class  Hello.java  JavaDay1.log  README.md  Welcome.class
+# ls -al
+total 144
+drwxr-xr-x 3 root root   4096 Oct  2 01:11 .
+drwxr-xr-x 1 root root   4096 Oct  2 00:27 ..
+drwxr-xr-x 8 root root   4096 Oct  2 01:15 .git
+-rw-r--r-- 1 root root    401 Oct  2 00:46 Hello.class
+-rw-r--r-- 1 root root    187 Oct  2 00:45 Hello.java
+-rw-r--r-- 1 root root 114688 Oct  2 01:14 JavaDay1.log
+-rw-r--r-- 1 root root     30 Oct  2 01:11 README.md
+-rw-r--r-- 1 root root    403 Oct  2 00:46 Welcome.class
+# exit
+
+Script done on 2020-10-02 01:21:41+05:30 [COMMAND_EXIT_CODE="0"]
